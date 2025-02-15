@@ -1,1 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+.page-title {
+    color: white
+}
+
+.practice-problems {
+    display: inline-flex;
+    gap: 150px;
+}
+
+.similar-font,
+.find-grid,
+.style-choice {
+    width: 800px;
+    height: 800px;
+}
+
+.similar-font {
+    background-color: #3D3E61;
+    color: #FFF;
+    padding: 100px;
+}
+
+.similar-font-headline {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    color: #FFBF43;
+    text-transform: uppercase;
+    font-size: 68px;
+    line-height: 1;
+}
+
+.similar-font-content {
+    font-family: "Lekton", serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.find-grid {
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+}
+
+.find-grid-headline {
+    grid-column: 2/span 6;
+    grid-row: 3/span 2;
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 64px;
+    text-transform: lowercase;
+    color: #003053;
+    margin-top: 0;
+
+}
+
+.find-grid-content {
+    grid-column: 2 / span 6;
+    grid-row: 5 / span 4;
+    columns: 2;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #003053;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.find-grid-content p {
+    break-inside: avoid;
+    margin-top: 0;
+}
+
+.style-choice {
+    background: url('../images/hand-madde-paper.jpg') #FFF;
+    padding: 100px;
+}
+
+.content-container {
+    transform: rotate(-15deg);
+}
+
+.style-choice-headline {
+    margin: 93px 0;
+    font-family: "Gaegu", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+    color: #003053;
+    line-height: 64px;
+}
+
+.style-choice-content {
+    color: #003053;
+    font-family: Gaegu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
